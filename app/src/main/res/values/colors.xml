@@ -3,4 +3,15 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="probando">#64DD17</color>
+    <color name="probando2">#76FF03</color>
+
+    <color name="probando3">#ECEFF1</color>
+    <color name="probando4">#FFFFFF</color>
+
+    <color name="probando5">#FF3D00</color>
+    <color name="probando6">#DD2C00</color>
+
+
 </resources>

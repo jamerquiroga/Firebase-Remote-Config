@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
     private boolean validateInput() {
         // realizamos la validacion para los otros campos
 
-        //configuramos ela caja para ingresar nuestra contraseña
+        //configuramos la caja para ingresar nuestra contraseña
         if (mEditPassword.getText().toString().length() < minPasswordLength) {
             mEditPassword.setError(String.format(getString(R.string.error_short_password), minPasswordLength));
             return false;
