@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
         defaults.put(CONFIG_MIN_PASSWORD_LEN, res.getInteger(R.integer.config_min_password_len));
         defaults.put(CONFIG_IS_PROMO_ON, res.getBoolean(R.bool.config_promo_on));
         defaults.put(CONFIG_COLOR_PRY, res.getString(R.string.config_color_pry));
-        defaults.put("color_primary_dark", res.getString(R.string.config_color_pry_dark));
+        defaults.put(CONFIG_COLOR_PRY_DARK, res.getString(R.string.config_color_pry_dark));
 
         mFirebaseRemoteConfig.setDefaults(defaults);
 
